@@ -1,0 +1,82 @@
+html,body{
+	padding:0;
+	margin:0;
+}
+.content{
+	position:relative;
+	width:570px;
+	height:108px;
+	margin:50px;
+	border:1px solid #eee8aa;
+}
+h3{
+	position:relative;
+	width:545px;
+	height:30px;
+	line-height:30px;
+	font-size:15px;
+	color:#fff;
+	margin:0;
+	padding:0;
+	padding-left:25px;
+	background-color:#9acd32;
+}
+.row{
+	position:relative;
+	width:570px;
+	height:40px;
+	border-bottom:1px solid #eee8aa;
+}
+.row:last-child{
+	border:none;
+}
+.lesson{
+	float:left;	
+	position:relative;
+	width:auto;
+	height:40px;
+	line-height:40px;
+	font-size:15px;
+	padding-left:25px;
+	border:none;
+}
+.edit_btn{
+	float:left;
+	position:relative;
+	width:25px;
+	height:25px;	
+	margin-top:6.5px;
+	margin-left:5px;
+	border:none;
+	background-color:#fff;
+}
+.edit_img{
+	position:relative;
+	width:25px;
+	height:25px;
+}
+
+.input_lesson{
+	float:left;
+	position:relative;
+	width:auto;
+	height:25px;
+	margin-top:3px;
+	margin-left:25px;
+}
+.save_btn,.cancel_btn{
+	float:left;
+	position:relative;
+	width:50px;
+	height:25px;
+	line-height:25px;
+	margin-top:6.5px;
+	margin-left:5px;
+	color:#9acd32;
+	border:none;
+	background-color:#fff;
+}
+.save_btn:hover,.cancel_btn:hover{
+	color:#fff;
+	background-color:#9acd32;
+}
